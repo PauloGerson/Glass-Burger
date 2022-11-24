@@ -1,0 +1,112 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+   width: 100vw;
+    height: 100vh;
+   display: flex;
+  justify-content:  center;
+ 
+   background-color: #FBAB7E;
+   background-image: linear-gradient(62deg, #FBAB7E 0%, #F7CE68 100%);
+}
+
+.container{     
+    margin-top: 10rem;
+    width: 70rem;
+    max-height: 70%;
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.2);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+}
+.container img{
+    width: 10%;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem;
+}
+
+ul{
+    display: flex;
+    justify-content: start;
+    gap: 1rem;
+    padding-right: 3rem;
+}
+
+ul li{
+    list-style: none;
+    cursor: pointer;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 500;
+}
+
+ul li:hover{
+    color: #e75b09;
+}
+
+.container-main{
+    display: flex;
+    justify-content: space-between;
+}
+.container-main img{
+    width: 130%;
+    padding: 5rem 6rem 0rem 0rem;
+}
+
+.container-main .world{
+    margin-top: 4rem;
+    width: 90rem;
+    font-size: 1.2rem;
+
+}
+
+.world{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding-left: 2rem;
+}
+
+.world h1{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 5rem;
+}
+.world p{
+    line-height: 1.9rem;
+    font-family: 'Ubuntu', sans-serif;
+    color: #fff;
+    font-weight: 300;
+
+}
+.textCor{
+    color: #d69a02;
+}
+
+
+.world button{
+    cursor: pointer;
+    outline: none;
+    width: 15rem;
+    padding: 15px;
+    border-radius: 30px;
+    border: none;
+    font-weight: 600;
+    font-size: 0.90rem;
+   background: none;
+    text-transform: uppercase;
+   
+    color: white;
+    transition: 0.4s all;
+    background-color: #d69a02;
+}
+
+.world button:hover{
+    color: #e75b09;
+    background-color: white;
+}
+
